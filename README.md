@@ -48,13 +48,21 @@ copilot-prompt/
 ├── .vscode/
 │   └── chat.json                  # VS Code chat participant configuration
 ├── prompts/
+│   ├── QUICK_REFERENCE.md         # Quick copy-paste prompts
 │   └── examples/                  # Example prompt templates
 │       ├── code-review.md         # Code review prompts
 │       ├── documentation.md       # Documentation generation prompts
 │       ├── testing.md             # Test writing prompts
 │       ├── debugging.md           # Debugging assistance prompts
 │       ├── refactoring.md         # Code refactoring prompts
-│       └── architecture.md        # Architecture and design prompts
+│       ├── architecture.md        # Architecture and design prompts
+│       ├── security.md            # Security analysis prompts
+│       ├── performance.md         # Performance optimization prompts
+│       └── migration.md           # Migration and upgrade prompts
+├── CUSTOMIZATION.md               # Guide for customizing templates
+├── USAGE_EXAMPLES.md              # Practical usage examples
+├── CONTRIBUTING.md                # Contribution guidelines
+├── .gitignore                     # Template gitignore
 └── README.md
 ```
 
@@ -87,6 +95,15 @@ Browse the `prompts/examples/` directory for ready-to-use templates:
 - **[Debugging](prompts/examples/debugging.md)** - Get help troubleshooting issues
 - **[Refactoring](prompts/examples/refactoring.md)** - Improve code quality and structure
 - **[Architecture](prompts/examples/architecture.md)** - Design systems and make architectural decisions
+- **[Security](prompts/examples/security.md)** - Analyze code for security vulnerabilities
+- **[Performance](prompts/examples/performance.md)** - Optimize code for better performance
+- **[Migration](prompts/examples/migration.md)** - Migrate code between versions or frameworks
+
+### Additional Resources
+
+- **[Quick Reference](prompts/QUICK_REFERENCE.md)** - Copy-paste ready prompts for common tasks
+- **[Usage Examples](USAGE_EXAMPLES.md)** - Practical examples and workflows
+- **[Customization Guide](CUSTOMIZATION.md)** - How to adapt templates for your project
 
 ## 💡 Usage Tips
 
