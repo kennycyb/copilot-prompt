@@ -203,7 +203,7 @@ Let's solve this step by step:
 
 ### Role-Based
 ```
-Act as a [expert in X]. 
+Act as an [expert in X]. 
 [Your specific request]
 ```
 

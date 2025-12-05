@@ -150,8 +150,8 @@ Convert this query to use parameterized statements:
 
 ### Secure Token Generation
 ```
-Generate a cryptographically secure random token for [purpose]
-Use [language] built-in crypto library
+Generate a cryptographically secure random token for [PURPOSE]
+Use [LANGUAGE] built-in crypto library
 ```
 
 ## Resources to Mention

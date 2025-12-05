@@ -275,10 +275,14 @@ Include:
 
 ### Package Manager Migration
 ```
-Migrate from npm to yarn/pnpm:
+Migrate from npm to [yarn/pnpm]:
+
+Requirements:
 - Convert lock files
 - Update CI/CD scripts
 - Update documentation
+
+Provide step-by-step migration instructions.
 ```
 
 ### State Management Migration

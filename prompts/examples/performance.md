@@ -55,7 +55,7 @@ Improve the time/space complexity of this algorithm:
 
 [PASTE CODE]
 
-Current complexity: O([YOUR UNDERSTANDING])
+Current complexity: O([CURRENT_COMPLEXITY, e.g., n²])
 Target: [DESIRED COMPLEXITY or "best possible"]
 
 Provide:

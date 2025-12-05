@@ -156,8 +156,14 @@ describe('isValidEmail', () => {
 
 ### Step 1: Copy Files
 ```bash
+# Check if directories exist first to avoid overwriting
+# Use -n flag to not overwrite existing files, or -i for interactive mode
 cp -r .github /path/to/your/project/
 cp -r .vscode /path/to/your/project/
+
+# Alternatively, copy individual files to merge with existing configs
+cp .github/copilot-instructions.md /path/to/your/project/.github/
+cp .vscode/chat.json /path/to/your/project/.vscode/
 ```
 
 ### Step 2: Customize Instructions
