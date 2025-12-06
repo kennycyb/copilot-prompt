@@ -90,6 +90,7 @@ function login(req, res) {
   const user = db.query(query);
   
   if (user && user.password === password) {
+    // SECURITY ISSUE: Hardcoded secret - DO NOT DO THIS
     const token = jwt.sign({ id: user.id }, 'secret123');
     res.json({ token });
   } else {
